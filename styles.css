@@ -1,0 +1,51 @@
+body {
+    background-image: url('background.jpeg'); /* Путь к вашему изображению */
+    background-size: cover; /* Картинка растягивается на весь экран */
+    background-repeat: no-repeat; /* Картинка не повторяется */
+    background-position: center; /* Центрируем изображение */
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    body, h1, h2, h3, p, a, ul, li, footer {
+        color: #ffffff; /* Белый цвет текста */
+    }
+    .hidden {
+        display: none;
+    }
+    
+    button.toggle-btn {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    button.toggle-btn:hover {
+        background-color: #0056b3;
+    }
+    .technical-list {
+        list-style: none; /* Убираем маркеры списка */
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap; /* Перенос строк для элементов */
+        gap: 20px; /* Расстояние между элементами */
+        justify-content: center; /* Выравнивание элементов по центру */
+    }
+    
+    .technical-list li {
+        text-align: center; /* Центрирование текста под картинкой */
+        width: 150px; /* Фиксированная ширина для каждого элемента */
+    }
+    
+    .technical-list img {
+        border: 1px solid #ccc; /* Рамка вокруг изображения */
+        border-radius: 8px; /* Скруглённые углы */
+        margin-bottom: 10px; /* Отступ под изображением */
+    }
+            
+}

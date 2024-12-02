@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шкаф для проращивания зерновой культуры</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Шкаф для проращивания зерновой культуры</h1>
+        <p>Система управления с помощью Arduino</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О проекте</h2>
+            <p>Этот шкаф предназначен для проращивания зерновых культур с использованием автоматизированной системы управления на базе Arduino. Он поддерживает оптимальные условия для роста: температуру, влажность и освещение.</p>
+        </section>
+        
+        <!-- Кнопки для открытия остальных разделов -->
+        <button class="toggle-btn" data-target="technical">Технические детали</button>
+        <section id="technical" class="hidden">
+            <h2>Технические детали</h2>
+            <ul class="technical-list">
+                <li>
+                    <img src="esp82661.jpg" alt="ESP8266" width="100">
+                    <p>ESP8266 (Wi-Fi модуль)</p>
+                </li>
+                <li>
+                    <img src="display.jpg" alt="Дисплей" width="100">
+                    <p>Дисплей</p>
+                </li>
+               
+                <li>
+                    <img src="fan.jpg" alt="Вентилятор" width="100">
+                    <p>Вентилятор</p>
+                </li>
+                <li>
+                    <img src="heater.jpg" alt="Нагревательный элемент" width="100">
+                    <p>Нагревательный элемент</p>
+                </li>
+                <li>
+                    <img src="dht22.jpg" alt="Датчик температуры и влажности" width="100">
+                    <p>Датчик температуры и влажности</p>
+                </li>
+                <li>
+                    <img src="svet.jpg" alt="Светодиодные лампы" width="100">
+                    <p>Светодиодные лампы</p>
+                </li>
+            </ul>
+        </section>
+        
+        <button class="toggle-btn" data-target="gallery">Галерея</button>
+        <section id="gallery" class="hidden">
+            <h2>Галерея</h2>
+            <img src="new-image1.jpg" alt="Шкаф для проращивания" width="300">
+            <p>Пример внешнего вида шкафа.</p>
+        </section>
+        
+        <button class="toggle-btn" data-target="downloads">Загрузки</button>
+        <section id="downloads" class="hidden">
+            <h2>Загрузки</h2>
+            <p><a href="code.zip">Скачать код Arduino</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 </p>
+    </footer>
+</body>
+</html>
